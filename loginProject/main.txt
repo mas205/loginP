@@ -1,2 +1,4 @@
 <head></head>
-<body></body>
+<body>
+<H1>Hola<H1>
+</body>
