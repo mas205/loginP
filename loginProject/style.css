@@ -2,11 +2,13 @@ body {
   background-color: #DADADA;
 }
 body > .grid {
+  background-color: #DADADA;
   height: 100%;
 }
 .image {
   margin-top: -100px;
 }
 .column {
+  background-color: #DADADA;
   max-width: 450px;
 }
