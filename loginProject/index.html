@@ -9,9 +9,34 @@
   <body>
     <div class="ui center aligned middle aligned grid">
       <div class="column">
-        <h1>TEXTO</h1>
-        <h1>TEXTO</h1>
-        <h1>TEXTO</h1>
+        <div class="ui segments">
+          <div class="ui segment">
+            <h4 class="ui left aligned medium header">
+              Log-in
+            </h4>
+          </div>
+          <div class="ui left aligned secondary segment">
+            <form class="ui large form">
+              <div class="field ui fluid icon input">
+                <input type="text" name="user-name" placeholder="User name">
+                <i class="users icon"></i>
+              </div> <br>
+              <div class="field ui fluid icon input">
+                <input type="text" name="password" placeholder="Password">
+                <i class="key icon"></i>
+              </div> <br>
+              <div class="field ui right aligned container">
+                <div class="ui item checkbox">
+                  <label>Remember me</label>
+                  <input type="checkbox" tabindex="0" class="hidden">
+                </div>
+              </div>
+              <div class="field">
+                <button type="button" name="button" class="ui fluid button">login</button>
+              </div>
+            </form>
+          </div>
+        </div>
       </div>
     </div>
     <script
