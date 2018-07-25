@@ -2,7 +2,7 @@ body {
   background-color: #DADADA;
 }
 body > .grid {
-  background-color: #DADADA;
+  background-color: #333333;
   height: 100%;
 }
 .image {
@@ -11,4 +11,9 @@ body > .grid {
 .column {
   background-color: #DADADA;
   max-width: 450px;
+  border-radius: 15px;
+  box-shadow: 5px 5px;
+}
+.ui large teal submit button{
+  box-shadow: 2px 2px;
 }
